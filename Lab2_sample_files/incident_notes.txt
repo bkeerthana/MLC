@@ -1,0 +1,40 @@
+Case-001: Summary - Port scanning activity.
+Recommendation - Block source IP range.
+Case-002: Summary - Port scanning activity.
+Recommendation - Block source IP range.
+Case-003: Summary - Potential malware beaconing.
+Recommendation - Block source IP range.
+Case-004: Summary - Potential malware beaconing.
+Recommendation - Enable MFA.
+Case-005: Summary - Port scanning activity.
+Recommendation - Increase WAF sensitivity.
+Case-006: Summary - Port scanning activity.
+Recommendation - Review EDR detections.
+Case-007: Summary - Port scanning activity.
+Recommendation - Increase WAF sensitivity.
+Case-008: Summary - Potential malware beaconing.
+Recommendation - Review EDR detections.
+Case-009: Summary - WAF alerts spike.
+Recommendation - Rotate credentials.
+Case-010: Summary - WAF alerts spike.
+Recommendation - Block source IP range.
+Case-011: Summary - Brute force indicators.
+Recommendation - Increase WAF sensitivity.
+Case-012: Summary - Potential malware beaconing.
+Recommendation - Block source IP range.
+Case-013: Summary - Brute force indicators.
+Recommendation - Increase WAF sensitivity.
+Case-014: Summary - Brute force indicators.
+Recommendation - Rotate credentials.
+Case-015: Summary - Potential malware beaconing.
+Recommendation - Increase WAF sensitivity.
+Case-016: Summary - Potential malware beaconing.
+Recommendation - Block source IP range.
+Case-017: Summary - Suspicious admin access.
+Recommendation - Enable MFA.
+Case-018: Summary - Suspicious admin access.
+Recommendation - Block source IP range.
+Case-019: Summary - WAF alerts spike.
+Recommendation - Review EDR detections.
+Case-020: Summary - Brute force indicators.
+Recommendation - Block source IP range.

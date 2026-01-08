@@ -1,0 +1,1082 @@
+[
+  {
+    "timestamp":"2026-01-05T09:00:10Z",
+    "tool":"Defender",
+    "event_type":"XSS",
+    "severity":"medium",
+    "src_ip":"10.0.0.27",
+    "dest":"\/upload",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:00:31Z",
+    "tool":"EDR",
+    "event_type":"SuspiciousLogin",
+    "severity":"high",
+    "src_ip":"10.0.0.229",
+    "dest":"\/settings",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:01:00Z",
+    "tool":"Defender",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.108",
+    "dest":"\/upload",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:01:34Z",
+    "tool":"IDS",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.172",
+    "dest":"\/settings",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:02:03Z",
+    "tool":"WAF",
+    "event_type":"XSS",
+    "severity":"critical",
+    "src_ip":"10.0.0.25",
+    "dest":"\/admin",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:02:33Z",
+    "tool":"EDR",
+    "event_type":"SQLi",
+    "severity":"high",
+    "src_ip":"10.0.0.209",
+    "dest":"\/admin",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:03:02Z",
+    "tool":"Defender",
+    "event_type":"SuspiciousLogin",
+    "severity":"low",
+    "src_ip":"10.0.0.92",
+    "dest":"\/reset",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:03:31Z",
+    "tool":"IDS",
+    "event_type":"XSS",
+    "severity":"medium",
+    "src_ip":"10.0.0.81",
+    "dest":"\/api\/v1\/profile",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:04:10Z",
+    "tool":"WAF",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.59",
+    "dest":"\/admin",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:04:38Z",
+    "tool":"EDR",
+    "event_type":"SuspiciousLogin",
+    "severity":"low",
+    "src_ip":"10.0.0.148",
+    "dest":"\/reset",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:05:01Z",
+    "tool":"IDS",
+    "event_type":"PortScan",
+    "severity":"high",
+    "src_ip":"10.0.0.48",
+    "dest":"\/search",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:05:39Z",
+    "tool":"EDR",
+    "event_type":"SuspiciousLogin",
+    "severity":"low",
+    "src_ip":"10.0.0.48",
+    "dest":"\/api\/v1\/profile",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:06:06Z",
+    "tool":"Defender",
+    "event_type":"Malware",
+    "severity":"critical",
+    "src_ip":"10.0.0.25",
+    "dest":"\/upload",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:06:30Z",
+    "tool":"EDR",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.89",
+    "dest":"\/search",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:07:00Z",
+    "tool":"WAF",
+    "event_type":"SQLi",
+    "severity":"medium",
+    "src_ip":"10.0.0.154",
+    "dest":"\/api\/v1\/profile",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:07:31Z",
+    "tool":"Defender",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.14",
+    "dest":"\/settings",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:08:03Z",
+    "tool":"CloudTrail",
+    "event_type":"DataExfil",
+    "severity":"critical",
+    "src_ip":"10.0.0.126",
+    "dest":"\/reset",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:08:33Z",
+    "tool":"CloudTrail",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.195",
+    "dest":"\/upload",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:09:08Z",
+    "tool":"Defender",
+    "event_type":"DataExfil",
+    "severity":"high",
+    "src_ip":"10.0.0.74",
+    "dest":"\/login",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:09:39Z",
+    "tool":"CloudTrail",
+    "event_type":"SQLi",
+    "severity":"low",
+    "src_ip":"10.0.0.103",
+    "dest":"\/api\/v1\/orders",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:10:00Z",
+    "tool":"EDR",
+    "event_type":"BruteForce",
+    "severity":"high",
+    "src_ip":"10.0.0.244",
+    "dest":"\/reset",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:10:38Z",
+    "tool":"WAF",
+    "event_type":"DataExfil",
+    "severity":"critical",
+    "src_ip":"10.0.0.32",
+    "dest":"\/api\/v1\/profile",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:11:03Z",
+    "tool":"CloudTrail",
+    "event_type":"Malware",
+    "severity":"high",
+    "src_ip":"10.0.0.99",
+    "dest":"\/admin",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:11:40Z",
+    "tool":"Defender",
+    "event_type":"SQLi",
+    "severity":"critical",
+    "src_ip":"10.0.0.222",
+    "dest":"\/login",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:12:08Z",
+    "tool":"WAF",
+    "event_type":"PrivilegeEscalation",
+    "severity":"critical",
+    "src_ip":"10.0.0.237",
+    "dest":"\/upload",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:12:36Z",
+    "tool":"WAF",
+    "event_type":"SuspiciousLogin",
+    "severity":"low",
+    "src_ip":"10.0.0.76",
+    "dest":"\/search",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:13:03Z",
+    "tool":"CloudTrail",
+    "event_type":"DataExfil",
+    "severity":"high",
+    "src_ip":"10.0.0.207",
+    "dest":"\/admin",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:13:37Z",
+    "tool":"WAF",
+    "event_type":"Malware",
+    "severity":"critical",
+    "src_ip":"10.0.0.218",
+    "dest":"\/upload",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:14:09Z",
+    "tool":"SIEM",
+    "event_type":"PortScan",
+    "severity":"high",
+    "src_ip":"10.0.0.22",
+    "dest":"\/api\/v1\/orders",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:14:34Z",
+    "tool":"EDR",
+    "event_type":"XSS",
+    "severity":"low",
+    "src_ip":"10.0.0.201",
+    "dest":"\/api\/v1\/orders",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:15:00Z",
+    "tool":"Defender",
+    "event_type":"BruteForce",
+    "severity":"medium",
+    "src_ip":"10.0.0.91",
+    "dest":"\/admin",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:15:32Z",
+    "tool":"EDR",
+    "event_type":"BruteForce",
+    "severity":"medium",
+    "src_ip":"10.0.0.67",
+    "dest":"\/admin",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:16:06Z",
+    "tool":"Defender",
+    "event_type":"DataExfil",
+    "severity":"critical",
+    "src_ip":"10.0.0.245",
+    "dest":"\/settings",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:16:35Z",
+    "tool":"Defender",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.166",
+    "dest":"\/api\/v1\/profile",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:17:04Z",
+    "tool":"SIEM",
+    "event_type":"DataExfil",
+    "severity":"high",
+    "src_ip":"10.0.0.19",
+    "dest":"\/reset",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:17:32Z",
+    "tool":"IDS",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.16",
+    "dest":"\/settings",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:18:03Z",
+    "tool":"WAF",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.11",
+    "dest":"\/admin",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:18:35Z",
+    "tool":"CloudTrail",
+    "event_type":"SuspiciousLogin",
+    "severity":"critical",
+    "src_ip":"10.0.0.159",
+    "dest":"\/login",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:19:01Z",
+    "tool":"CloudTrail",
+    "event_type":"Malware",
+    "severity":"high",
+    "src_ip":"10.0.0.234",
+    "dest":"\/settings",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:19:31Z",
+    "tool":"WAF",
+    "event_type":"DataExfil",
+    "severity":"low",
+    "src_ip":"10.0.0.40",
+    "dest":"\/search",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:20:06Z",
+    "tool":"Defender",
+    "event_type":"BruteForce",
+    "severity":"low",
+    "src_ip":"10.0.0.131",
+    "dest":"\/api\/v1\/orders",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:20:31Z",
+    "tool":"CloudTrail",
+    "event_type":"BruteForce",
+    "severity":"high",
+    "src_ip":"10.0.0.114",
+    "dest":"\/search",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:21:05Z",
+    "tool":"SIEM",
+    "event_type":"PrivilegeEscalation",
+    "severity":"low",
+    "src_ip":"10.0.0.101",
+    "dest":"\/search",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:21:35Z",
+    "tool":"WAF",
+    "event_type":"SuspiciousLogin",
+    "severity":"high",
+    "src_ip":"10.0.0.86",
+    "dest":"\/reset",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:22:09Z",
+    "tool":"EDR",
+    "event_type":"PrivilegeEscalation",
+    "severity":"low",
+    "src_ip":"10.0.0.225",
+    "dest":"\/api\/v1\/profile",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:22:34Z",
+    "tool":"Defender",
+    "event_type":"SuspiciousLogin",
+    "severity":"medium",
+    "src_ip":"10.0.0.81",
+    "dest":"\/admin",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:23:00Z",
+    "tool":"SIEM",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.145",
+    "dest":"\/admin",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:23:37Z",
+    "tool":"IDS",
+    "event_type":"SQLi",
+    "severity":"high",
+    "src_ip":"10.0.0.132",
+    "dest":"\/reset",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:24:08Z",
+    "tool":"EDR",
+    "event_type":"PrivilegeEscalation",
+    "severity":"critical",
+    "src_ip":"10.0.0.245",
+    "dest":"\/api\/v1\/orders",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:24:31Z",
+    "tool":"EDR",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.37",
+    "dest":"\/admin",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:25:06Z",
+    "tool":"CloudTrail",
+    "event_type":"SQLi",
+    "severity":"high",
+    "src_ip":"10.0.0.199",
+    "dest":"\/api\/v1\/profile",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:25:31Z",
+    "tool":"EDR",
+    "event_type":"BruteForce",
+    "severity":"medium",
+    "src_ip":"10.0.0.98",
+    "dest":"\/api\/v1\/profile",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:26:08Z",
+    "tool":"SIEM",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.13",
+    "dest":"\/settings",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:26:34Z",
+    "tool":"Defender",
+    "event_type":"DataExfil",
+    "severity":"medium",
+    "src_ip":"10.0.0.74",
+    "dest":"\/api\/v1\/orders",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:27:10Z",
+    "tool":"SIEM",
+    "event_type":"Malware",
+    "severity":"high",
+    "src_ip":"10.0.0.249",
+    "dest":"\/settings",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:27:39Z",
+    "tool":"IDS",
+    "event_type":"SuspiciousLogin",
+    "severity":"critical",
+    "src_ip":"10.0.0.198",
+    "dest":"\/api\/v1\/profile",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:28:05Z",
+    "tool":"CloudTrail",
+    "event_type":"BruteForce",
+    "severity":"high",
+    "src_ip":"10.0.0.207",
+    "dest":"\/login",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:28:39Z",
+    "tool":"IDS",
+    "event_type":"XSS",
+    "severity":"low",
+    "src_ip":"10.0.0.225",
+    "dest":"\/reset",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:29:03Z",
+    "tool":"EDR",
+    "event_type":"PortScan",
+    "severity":"critical",
+    "src_ip":"10.0.0.197",
+    "dest":"\/api\/v1\/profile",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:29:31Z",
+    "tool":"EDR",
+    "event_type":"DataExfil",
+    "severity":"high",
+    "src_ip":"10.0.0.25",
+    "dest":"\/login",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:30:00Z",
+    "tool":"SIEM",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.15",
+    "dest":"\/upload",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:30:40Z",
+    "tool":"EDR",
+    "event_type":"SQLi",
+    "severity":"high",
+    "src_ip":"10.0.0.97",
+    "dest":"\/admin",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:31:03Z",
+    "tool":"EDR",
+    "event_type":"BruteForce",
+    "severity":"low",
+    "src_ip":"10.0.0.204",
+    "dest":"\/reset",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:31:34Z",
+    "tool":"EDR",
+    "event_type":"DataExfil",
+    "severity":"critical",
+    "src_ip":"10.0.0.180",
+    "dest":"\/login",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:32:01Z",
+    "tool":"IDS",
+    "event_type":"Malware",
+    "severity":"medium",
+    "src_ip":"10.0.0.6",
+    "dest":"\/upload",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:32:33Z",
+    "tool":"IDS",
+    "event_type":"Malware",
+    "severity":"high",
+    "src_ip":"10.0.0.200",
+    "dest":"\/admin",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:33:01Z",
+    "tool":"SIEM",
+    "event_type":"DataExfil",
+    "severity":"low",
+    "src_ip":"10.0.0.63",
+    "dest":"\/admin",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:33:36Z",
+    "tool":"CloudTrail",
+    "event_type":"SQLi",
+    "severity":"medium",
+    "src_ip":"10.0.0.154",
+    "dest":"\/api\/v1\/profile",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:34:04Z",
+    "tool":"WAF",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.111",
+    "dest":"\/upload",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:34:37Z",
+    "tool":"Defender",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.172",
+    "dest":"\/admin",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:35:10Z",
+    "tool":"CloudTrail",
+    "event_type":"SQLi",
+    "severity":"critical",
+    "src_ip":"10.0.0.141",
+    "dest":"\/settings",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:35:35Z",
+    "tool":"SIEM",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.164",
+    "dest":"\/login",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:36:02Z",
+    "tool":"WAF",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.203",
+    "dest":"\/admin",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:36:35Z",
+    "tool":"IDS",
+    "event_type":"BruteForce",
+    "severity":"low",
+    "src_ip":"10.0.0.190",
+    "dest":"\/search",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:37:05Z",
+    "tool":"Defender",
+    "event_type":"BruteForce",
+    "severity":"critical",
+    "src_ip":"10.0.0.88",
+    "dest":"\/settings",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:37:33Z",
+    "tool":"EDR",
+    "event_type":"XSS",
+    "severity":"critical",
+    "src_ip":"10.0.0.209",
+    "dest":"\/login",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:38:10Z",
+    "tool":"WAF",
+    "event_type":"Malware",
+    "severity":"low",
+    "src_ip":"10.0.0.53",
+    "dest":"\/search",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:38:34Z",
+    "tool":"SIEM",
+    "event_type":"DataExfil",
+    "severity":"high",
+    "src_ip":"10.0.0.133",
+    "dest":"\/login",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:39:10Z",
+    "tool":"IDS",
+    "event_type":"SQLi",
+    "severity":"high",
+    "src_ip":"10.0.0.75",
+    "dest":"\/reset",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:39:40Z",
+    "tool":"IDS",
+    "event_type":"SuspiciousLogin",
+    "severity":"critical",
+    "src_ip":"10.0.0.206",
+    "dest":"\/settings",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:40:01Z",
+    "tool":"EDR",
+    "event_type":"DataExfil",
+    "severity":"critical",
+    "src_ip":"10.0.0.88",
+    "dest":"\/search",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:40:39Z",
+    "tool":"WAF",
+    "event_type":"SuspiciousLogin",
+    "severity":"low",
+    "src_ip":"10.0.0.70",
+    "dest":"\/upload",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:41:10Z",
+    "tool":"EDR",
+    "event_type":"PortScan",
+    "severity":"high",
+    "src_ip":"10.0.0.212",
+    "dest":"\/admin",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:41:32Z",
+    "tool":"Defender",
+    "event_type":"PortScan",
+    "severity":"high",
+    "src_ip":"10.0.0.85",
+    "dest":"\/settings",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:42:08Z",
+    "tool":"SIEM",
+    "event_type":"BruteForce",
+    "severity":"critical",
+    "src_ip":"10.0.0.185",
+    "dest":"\/search",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:42:33Z",
+    "tool":"Defender",
+    "event_type":"PrivilegeEscalation",
+    "severity":"critical",
+    "src_ip":"10.0.0.12",
+    "dest":"\/reset",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:43:02Z",
+    "tool":"Defender",
+    "event_type":"SuspiciousLogin",
+    "severity":"high",
+    "src_ip":"10.0.0.21",
+    "dest":"\/api\/v1\/profile",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:43:37Z",
+    "tool":"CloudTrail",
+    "event_type":"DataExfil",
+    "severity":"low",
+    "src_ip":"10.0.0.38",
+    "dest":"\/api\/v1\/profile",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:44:06Z",
+    "tool":"Defender",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.62",
+    "dest":"\/upload",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:44:34Z",
+    "tool":"CloudTrail",
+    "event_type":"BruteForce",
+    "severity":"critical",
+    "src_ip":"10.0.0.10",
+    "dest":"\/search",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:45:10Z",
+    "tool":"WAF",
+    "event_type":"BruteForce",
+    "severity":"high",
+    "src_ip":"10.0.0.115",
+    "dest":"\/upload",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:45:38Z",
+    "tool":"IDS",
+    "event_type":"Malware",
+    "severity":"low",
+    "src_ip":"10.0.0.168",
+    "dest":"\/login",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:46:03Z",
+    "tool":"CloudTrail",
+    "event_type":"SuspiciousLogin",
+    "severity":"low",
+    "src_ip":"10.0.0.129",
+    "dest":"\/reset",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:46:40Z",
+    "tool":"SIEM",
+    "event_type":"Malware",
+    "severity":"high",
+    "src_ip":"10.0.0.182",
+    "dest":"\/settings",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:47:05Z",
+    "tool":"EDR",
+    "event_type":"XSS",
+    "severity":"critical",
+    "src_ip":"10.0.0.33",
+    "dest":"\/api\/v1\/profile",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:47:30Z",
+    "tool":"Defender",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.24",
+    "dest":"\/admin",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:48:03Z",
+    "tool":"IDS",
+    "event_type":"PortScan",
+    "severity":"medium",
+    "src_ip":"10.0.0.140",
+    "dest":"\/api\/v1\/profile",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:48:30Z",
+    "tool":"EDR",
+    "event_type":"XSS",
+    "severity":"medium",
+    "src_ip":"10.0.0.132",
+    "dest":"\/api\/v1\/profile",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:49:05Z",
+    "tool":"SIEM",
+    "event_type":"SQLi",
+    "severity":"high",
+    "src_ip":"10.0.0.204",
+    "dest":"\/search",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:49:36Z",
+    "tool":"CloudTrail",
+    "event_type":"BruteForce",
+    "severity":"low",
+    "src_ip":"10.0.0.207",
+    "dest":"\/admin",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:50:04Z",
+    "tool":"Defender",
+    "event_type":"DataExfil",
+    "severity":"critical",
+    "src_ip":"10.0.0.103",
+    "dest":"\/upload",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:50:31Z",
+    "tool":"EDR",
+    "event_type":"PrivilegeEscalation",
+    "severity":"low",
+    "src_ip":"10.0.0.20",
+    "dest":"\/settings",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:51:03Z",
+    "tool":"CloudTrail",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.176",
+    "dest":"\/api\/v1\/profile",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:51:39Z",
+    "tool":"CloudTrail",
+    "event_type":"SQLi",
+    "severity":"low",
+    "src_ip":"10.0.0.112",
+    "dest":"\/api\/v1\/profile",
+    "message":"Known bad indicator matched"
+  },
+  {
+    "timestamp":"2026-01-05T09:52:05Z",
+    "tool":"EDR",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.44",
+    "dest":"\/search",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:52:33Z",
+    "tool":"IDS",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.231",
+    "dest":"\/api\/v1\/orders",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:53:10Z",
+    "tool":"EDR",
+    "event_type":"PortScan",
+    "severity":"low",
+    "src_ip":"10.0.0.72",
+    "dest":"\/api\/v1\/profile",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:53:37Z",
+    "tool":"CloudTrail",
+    "event_type":"BruteForce",
+    "severity":"medium",
+    "src_ip":"10.0.0.243",
+    "dest":"\/search",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:54:06Z",
+    "tool":"WAF",
+    "event_type":"XSS",
+    "severity":"low",
+    "src_ip":"10.0.0.12",
+    "dest":"\/reset",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:54:40Z",
+    "tool":"CloudTrail",
+    "event_type":"SuspiciousLogin",
+    "severity":"low",
+    "src_ip":"10.0.0.198",
+    "dest":"\/settings",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:55:07Z",
+    "tool":"Defender",
+    "event_type":"PortScan",
+    "severity":"critical",
+    "src_ip":"10.0.0.76",
+    "dest":"\/api\/v1\/orders",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:55:32Z",
+    "tool":"SIEM",
+    "event_type":"XSS",
+    "severity":"low",
+    "src_ip":"10.0.0.78",
+    "dest":"\/api\/v1\/profile",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:56:04Z",
+    "tool":"SIEM",
+    "event_type":"DataExfil",
+    "severity":"medium",
+    "src_ip":"10.0.0.108",
+    "dest":"\/search",
+    "message":"Unusual API usage detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:56:32Z",
+    "tool":"IDS",
+    "event_type":"PrivilegeEscalation",
+    "severity":"high",
+    "src_ip":"10.0.0.38",
+    "dest":"\/upload",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:57:03Z",
+    "tool":"IDS",
+    "event_type":"XSS",
+    "severity":"high",
+    "src_ip":"10.0.0.196",
+    "dest":"\/api\/v1\/orders",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:57:38Z",
+    "tool":"IDS",
+    "event_type":"DataExfil",
+    "severity":"medium",
+    "src_ip":"10.0.0.33",
+    "dest":"\/api\/v1\/profile",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:58:08Z",
+    "tool":"IDS",
+    "event_type":"SuspiciousLogin",
+    "severity":"critical",
+    "src_ip":"10.0.0.14",
+    "dest":"\/api\/v1\/orders",
+    "message":"Multiple failed login attempts observed"
+  },
+  {
+    "timestamp":"2026-01-05T09:58:34Z",
+    "tool":"IDS",
+    "event_type":"PrivilegeEscalation",
+    "severity":"medium",
+    "src_ip":"10.0.0.210",
+    "dest":"\/api\/v1\/profile",
+    "message":"Suspicious process behavior"
+  },
+  {
+    "timestamp":"2026-01-05T09:59:09Z",
+    "tool":"SIEM",
+    "event_type":"DataExfil",
+    "severity":"high",
+    "src_ip":"10.0.0.133",
+    "dest":"\/settings",
+    "message":"Anomalous request pattern detected"
+  },
+  {
+    "timestamp":"2026-01-05T09:59:36Z",
+    "tool":"SIEM",
+    "event_type":"DataExfil",
+    "severity":"medium",
+    "src_ip":"10.0.0.25",
+    "dest":"\/api\/v1\/orders",
+    "message":"Unusual API usage detected"
+  }
+]
