@@ -76,6 +76,11 @@ Types of Data
            - Quasi-Structure Data
 
 Lab:2 Loading the files and writing files using Python and libraries 
-Activity: Load and write files 
+Activity: 
+ Identify the type of data (representation) 
+ Load all the file formats 
+     - Include pcap file (as per your choice)  too 
+ 
+           
 
 
