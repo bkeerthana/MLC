@@ -79,7 +79,19 @@ Lab:2 Loading the files and writing files using Python and libraries
 Activity: 
  Identify the type of data (representation) 
  Load all the file formats 
-     - Include pcap file (as per your choice)  too 
+     - Include the pcap file (as per your choice)  too 
+
+Day:6
+Types of Data
+  - Based on values 
+  - Qualitative 
+         - Nominal 
+         - Ordinal
+  - Quantitative 
+          - Discrete 
+          - Continoues 
+
+  
  
            
 
