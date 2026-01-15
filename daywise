@@ -95,5 +95,13 @@ Day:7
 More on values 
 operations on values 
 
+Lab:3 
+Loading .sql files into a dataframe 
+Inspecting dataframe 
+converting from one datatype to another
+        .astype( )
+Example: 
+# Convert column 'A' from string (object) to integer
+df['A'] = df['A'].astype(int)
 
 
