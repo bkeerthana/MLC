@@ -104,4 +104,12 @@ Example:
 # Convert column 'A' from string (object) to integer
 df['A'] = df['A'].astype(int)
 
+Day:8 
+Sources 
+     - collection 
+     - Nature 
+     - Layers 
 
+Day:9 
+Inspect the data 
+Refer: MLC_8S
