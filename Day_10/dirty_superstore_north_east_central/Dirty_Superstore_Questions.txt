@@ -1,0 +1,96 @@
+Dirty Superstore Dataset
+Part A: Loading & Structural Data Inspection (Questions Only)
+
+Datasets Provided
+- superstore_north_dirty.csv
+- superstore_east_dirty.csv
+- superstore_central_dirty.csv
+
+--------------------------------------------------
+Section 1: Dataset Loading
+--------------------------------------------------
+
+Q1.
+Load the three regional Superstore datasets into three separate dataframes.
+Display the first five records from each dataset and report their dimensions
+(number of rows and columns).
+
+Q2.
+List all column names present in each dataset.
+Identify and report any visible inconsistencies in column naming across the
+three datasets.
+
+--------------------------------------------------
+Section 2: Structural Schema Inspection
+--------------------------------------------------
+
+Q3.
+Inspect the structure of each dataset and report:
+- Column names
+- Data types
+- Non-null value counts
+
+Explain what this information indicates about the dataset structure.
+
+Q4.
+Based on structural inspection, classify the columns into the following
+categories:
+- Date/Time attributes
+- Numeric attributes
+- Categorical/Text attributes
+
+Perform this classification for at least one regional dataset.
+
+--------------------------------------------------
+Section 3: Cross-Dataset Structural Comparison
+--------------------------------------------------
+
+Q5.
+Compare the schemas of the North, East, and Central datasets and determine:
+- Whether they have the same number of columns
+- Whether column names are identical
+- Whether column order is consistent
+
+State whether the datasets are structurally compatible for direct combination.
+
+Q6.
+Identify any columns that appear to be:
+- Index-related or auto-generated
+- Metadata or notes fields not relevant for analysis
+
+Justify your answer using structural evidence.
+
+--------------------------------------------------
+Section 4: Initial Data Quality Indicators (Inspection Only)
+--------------------------------------------------
+
+Q7.
+Compute and report the number and percentage of missing values for each column
+in all three datasets.
+Do not perform any data cleaning at this stage.
+
+Q8.
+Check for duplicate records in each dataset.
+Report the number of duplicate rows and comment on whether they appear to be
+full-row duplicates.
+
+--------------------------------------------------
+Section 5: Structural Anomalies & Type Indicators
+--------------------------------------------------
+
+Q9.
+Identify columns that may contain mixed data types (for example, numeric values
+stored as formatted strings).
+Provide examples based on your inspection.
+
+--------------------------------------------------
+Section 6: Readiness for Dataset Integration
+--------------------------------------------------
+
+Q10.
+Based on your structural inspection, answer the following:
+1. Can the three datasets be directly combined into a single dataset at this
+   stage?
+2. List the structural issues that must be resolved before integration.
+
+
