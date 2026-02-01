@@ -1,7 +1,20 @@
 Theory:1
        Perform activities from classes 1 and 2 
 
+
 Lab   :1 
        Simulate a dataset for a coffee shop business scenario with appropriate attributes (such as sales, time, product, and customer details). Using the simulated dataset, frame questions for each type of data analytics: Descriptive, Diagnostic, Predictive, and Prescriptive.
 
+Lab  :2 
+       Load .eml files 
+       Load .sql files 
+       Load .pcap files 
+       Loac .csv files 
+
+Lab   :3 
+       Structural data Inspection on the above data files 
+
+Lab  :4 
+       Accessing and Filtering 
+       
 Assignment 1 - Deadline: 10.1.2025
