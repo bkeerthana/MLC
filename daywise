@@ -131,3 +131,8 @@ Same as Day:11
 Lab:4
 Structural Data Inspection + Introduction to  Data Accessing & Data Filtering 
 File used is: superstore.csv (clean)
+
+Day:13
+.loc 
+
+[] Vs. loc Vs.iloc
