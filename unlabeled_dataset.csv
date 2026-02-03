@@ -1,0 +1,10 @@
+1001,admin,0,2024-01-12,192.168.1.10,login,success
+1002,staff,1,2024-01-12,192.168.1.11,login,failure
+1003,admin,0,2024-01-13,192.168.1.12,logout,success
+1004,student,0,2024-01-13,192.168.1.15,login,success
+1005,staff,1,2024-01-14,10.0.0.5,login,failure
+1006,admin,0,2024-01-14,10.0.0.6,update_profile,success
+1007,student,0,2024-01-15,172.16.0.8,login,failure
+1008,staff,1,2024-01-15,172.16.0.9,logout,success
+1009,admin,0,2024-01-16,192.168.1.20,login,success
+1010,student,0,2024-01-16,192.168.1.25,login,failure
