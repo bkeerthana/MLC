@@ -150,4 +150,15 @@ univariate data inspection
           -var
           -mode
           -cumsum 
+
+Day:15 
+Converting list and dictionary into dataframe
+filtering 
+    - Boolean
+    - iloc
+    - loc
+    - query() 
+    - where() 
+
+use: pandas_dataframe_S.pynb
          
