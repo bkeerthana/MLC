@@ -1,6 +1,10 @@
 Theory:1
        Perform activities from classes 1 and 2 
 
+Theory:2 
+        Explore .filter() 
+        Use the dataset as per your choice
+
 
 Lab   :1 
        Simulate a dataset for a coffee shop business scenario with appropriate attributes (such as sales, time, product, and customer details). Using the simulated dataset, frame questions for each type of data analytics: Descriptive, Diagnostic, Predictive, and Prescriptive.
