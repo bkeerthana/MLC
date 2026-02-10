@@ -151,7 +151,7 @@ univariate data inspection
           -mode
           -cumsum 
 
-Day:15 
+Day:18
 Converting list and dictionary into dataframe
 filtering 
     - Boolean
@@ -160,7 +160,7 @@ filtering
     - query() 
     - where() 
 
-use: pandas_dataframe_S.pynb
+use: MLC_18S.pynb
 
 Day:19
 Converting list and dictionary into dataframes 
