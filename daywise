@@ -161,4 +161,12 @@ filtering
     - where() 
 
 use: pandas_dataframe_S.pynb
+
+Day:16
+Converting list and dictionary into dataframes 
+merge the dataframe
+filtering 
+    -isin() 
+
+use: pandasdaframe_II.pynb
          
