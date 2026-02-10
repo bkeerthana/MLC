@@ -162,11 +162,11 @@ filtering
 
 use: pandas_dataframe_S.pynb
 
-Day:16
+Day:19
 Converting list and dictionary into dataframes 
 merge the dataframe
 filtering 
     -isin() 
 
-use: pandasdaframe_II.pynb
+use: MLC_19S.pynb
          
