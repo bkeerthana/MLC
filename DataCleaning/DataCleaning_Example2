@@ -1,0 +1,91 @@
+DATA CLEANING QUESTIONS – RAW_DATASET.CSV
+
+  ---------------------------------
+  SECTION A: COLUMN NAME CLEANING
+  ---------------------------------
+
+1.  Identify column names containing leading/trailing spaces.
+2.  Detect inconsistent capitalization in column headers.
+3.  Rename ‘irst Name’ to ‘First Name’.
+4.  Convert all column names to snake_case format.
+
+  ---------------------------------
+  SECTION B: DATA TYPE VALIDATION
+  ---------------------------------
+
+5.  Print data types of all columns.
+6.  Identify columns incorrectly typed as object but should be numeric
+    or datetime.
+7.  Convert the ‘Age’ column (which contains values like 10/28/2019) to
+    datetime.
+8.  Assuming ‘Age’ represents date of birth, compute age_years.
+9.  Identify invalid date entries and handle them.
+
+  ----------------------------
+  SECTION C: SALARY CLEANING
+  ----------------------------
+
+10. Convert ‘SALARY’ from currency strings (e.g., $92.32) to float.
+11. Identify rows where salary conversion fails.
+12. Detect missing or malformed salary values.
+13. Compute minimum, maximum, and average salary after cleaning.
+14. Flag salaries equal to zero or negative.
+
+  --------------------------
+  SECTION D: NAME CLEANING
+  --------------------------
+
+15. Remove leading/trailing spaces from names.
+16. Convert names to proper title case.
+17. Detect names containing digits or special characters.
+18. Create a full_name column combining First Name and Last name.
+
+  ----------------------------------------
+  SECTION E: EMAIL CLEANING & VALIDATION
+  ----------------------------------------
+
+19. Convert all emails to lowercase.
+20. Remove leading/trailing spaces in email column.
+21. Identify missing email addresses.
+22. Detect duplicate emails.
+23. Validate email format using regex.
+24. Extract email domain and compute frequency of each domain.
+
+  -----------------------------
+  SECTION F: ADDRESS CLEANING
+  -----------------------------
+
+25. Identify addresses containing ‘P.O. Box’.
+26. Detect inconsistent abbreviations (Rd. vs Road, St. vs Street).
+27. Concatenate Address1, Address2, and Address3 into full_address.
+28. Detect duplicate addresses.
+
+  ----------------------------------------
+  SECTION G: MISSING VALUES & DUPLICATES
+  ----------------------------------------
+
+29. Compute total missing values per column.
+30. Calculate percentage of missing values.
+31. Remove fully duplicate rows.
+32. Identify soft duplicates (same email but different name).
+
+  ------------------------------------
+  SECTION H: DATA CONSISTENCY CHECKS
+  ------------------------------------
+
+33. Check for unrealistic ages (negative or greater than 100).
+34. Detect salary outliers using IQR method.
+35. Determine whether email can serve as a primary key.
+
+  -------------------------------
+  SECTION I: EXPORT & REPORTING
+  -------------------------------
+
+36. Export cleaned dataset as cleaned_dataset.csv.
+37. Create a data quality report summarizing:
+    -   Rows before cleaning
+    -   Rows after cleaning
+    -   Duplicates removed
+    -   Invalid emails detected
+    -   Salary conversion issues
+    -   Date parsing issues
