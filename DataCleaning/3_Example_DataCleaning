@@ -1,0 +1,10 @@
+Based on the cereal.csv file. 
+
+- Inspect the cereal.csv
+- Identify the problems in the dataset 
+       Examples
+              - duplicate values 
+              - duplicate rows 
+              - null values 
+              - inconsistent values
+- Address the problems 
